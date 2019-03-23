@@ -1,3 +1,5 @@
+
+
 /* ################### */
 /* DEBUT CODE ORIGINEL */
 /* ################### */
@@ -11,8 +13,9 @@
 }
 
 .card{
+
     width: 350px;
-    border: 5px solid gray;
+    border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px solid purple;
     min-height: 250px;
@@ -42,6 +45,32 @@ p {
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
+
+
+/*debut code céline*/
+#card-celine{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px rgb(33, 47, 240);
+    border-top: 10px solid  yellow ;
+}
+
+#imgceline{
+    border-radius: 50%;
+    width: 80px;
+    margin: 10px;
+}
+
+#h1celine{
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+#pceline{
+    margin: 5px;
+}
+/*fin code céline*/
 
 /* SHEIMA */
 #carteSheima { 
@@ -73,9 +102,9 @@ p {
     text-shadow: 0px 0px 5px black;
 }
 
-
 #div-name-av {
     display: block;
+
 }
 
 #name-av:hover {
@@ -131,6 +160,7 @@ p {
     line-height: 1.4em;
     font-size: 18px;
     text-align: center;
+
 }
 /* FIN JESSICA */
 
@@ -201,7 +231,12 @@ p {
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
+<<<<<<< HEAD
+    margin-top:10px;
+    margin-bottom: 10px;
+=======
     margin: 10px; 
+>>>>>>> 1c88eedb5ce99231890a0bcb9beb9e43aa27519b
 }
 
 /* ############### */
@@ -220,13 +255,14 @@ p {
     border-top: 18px solid rebeccapurple;
     min-height: 250px;
     padding: 10px;
+    border-radius: 6px;
 }
 
 .chrisCard .centered {
     text-align: center;
 }
 
-.chrisCard acronym {
+.chrisCard span {
     text-decoration: underline lightblue;
 }
 
@@ -263,6 +299,7 @@ p {
 /* DEBUT CODE XAV */
 /* ############## */
 
+
 #xav {
     background-color: black;
     background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
@@ -270,9 +307,10 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     border-color: purple;
+    width: 350px;
+    max-height: 250px;
     text-shadow: 2px 2px white;
 }
-
 /* ############ */
 /* FIN CODE XAV */
 /* ############ */
@@ -298,10 +336,62 @@ p {
     text-shadow: 1px 1px 12px red;
     color: orange;
     margin: 10px;
+
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
 }
+
+/* Carte de Marc */
+.card-marc{
+    border-color: blue;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    border-radius: 7px;
+    background-image: url('https://resize-parismatch.ladmedia.fr/r/940,628,center-middle/img/var/news/storage/images/paris-match/vivre/voyage/top-5-les-meilleures-stations-pour-partir-a-la-montaggne-cet-ete-1311686/21801974-3-fre-FR/Top-5-les-meilleures-stations-pour-partir-a-la-montagne-en-ete.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-marc h1{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.card-marc img{
+    width: 50%;
+    border: solid 4px grey;
+    animation: appear 2.5s ease-in;
+}
+
+.card-marc img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+
+}
+
+@keyframes appear{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.card-marc p{
+    text-align: justify;
+    background-color: rgba(40,40,40,0.5);
+    width: calc(100%-10px);
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Fin Carte de Marc */
 
 /* ############### */
 /* FIN CODE KYLIAN */
@@ -388,7 +478,7 @@ p {
     border: 1px solid #FF8C00;
     width: 350px;
     box-shadow: 1px 1px 3px #888;
-    border-top: 30px solid rgb(49, 71, 97);
+    border-top: 30px solid #FF8C00;
     min-height: 350px;
     padding: 20px;
     margin: 20px;
